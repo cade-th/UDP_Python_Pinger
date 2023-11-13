@@ -34,6 +34,17 @@ The objective of this project is to develop a UDP client in Python, functioning 
 
 ## main()
 
+<p align="center">
+    The main function is simply a call to the three functions below:
+</p> 
+
+```
+if __name__ == "__main__":
+    socket_create()
+    ping_client()
+    ping_statistics()
+```
+
 ------
 
 ## socket_create()
